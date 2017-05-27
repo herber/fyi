@@ -1,6 +1,6 @@
 {
   "name": "fyi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple best practices linter.",
   "license": "MIT",
   "repository": "tobihrbr/fyi",
@@ -35,7 +35,6 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
-    "kavy": "0.0.0",
     "ora": "^1.2.0",
     "recursive-readdir": "^2.2.1"
   },

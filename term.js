@@ -15,7 +15,7 @@ $(function() {
   {
     action: 'type',
     strings: ["fyi-init^400"],
-    output: '  ___           _  <br /> / __)         (_) <br />| |__   _   _   _  <br />|  __) | | | | | | <br />| |    | |_| | | | <br />|_|     \\__  | |_| <br />        (____/     <br />Installing ...<br />Done!<br />&nbsp;',
+    output: '&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;<br/>&nbsp;/&nbsp;__)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_)&nbsp;<br/>|&nbsp;|__&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;<br/>|&nbsp;&nbsp;__)&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;<br/>|&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;|_|&nbsp;|&nbsp;|&nbsp;|&nbsp;<br/>|_|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\__&nbsp;&nbsp;|&nbsp;|_|&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(____/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>Installing&nbsp;...<br/>Done!<br/>&nbsp;',
     postDelay: 1000
   },
   {

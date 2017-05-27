@@ -15,7 +15,6 @@ $(document).ready(function () {
     if ($('.nav-resp').hasClass('nav-show')) {
       $('.nav-resp').removeClass('nav-show')
       $('.nav-desk').hide(550);
-      // $('.nav-toggle').
     } else {
       $('.nav-resp').addClass('nav-show')
       $('.nav-desk').show(550);
@@ -53,6 +52,11 @@ $('a[href*="#"]')
         $('html, body').animate({
           scrollTop: target.offset().top
         }, 700);
+
+        if ($('.nav-resp').hasClass('nav-show')) {
+          $('.nav-resp').removeClass('nav-show')
+          $('.nav-desk').hide(750);
+        }
       }
     }
   });

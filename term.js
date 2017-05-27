@@ -2,8 +2,8 @@ $(function() {
   var data = [
   {
     action: 'type',
-    strings: ["npm install -g fyi^400"],
-    output: '<span class="gray">+fyi@0.0.0 installed</span><br>&nbsp;',
+    strings: ["npm install -g fyi-cli^400"],
+    output: '+fyi-cli@0.1.3 installed<br>&nbsp;',
     postDelay: 1000
   },
   {
@@ -14,7 +14,13 @@ $(function() {
   },
   {
     action: 'type',
-    strings: ["fyi^400"],
+    strings: ["fyi-init^400"],
+    output: '  ___           _  <br /> / __)         (_) <br />| |__   _   _   _  <br />|  __) | | | | | | <br />| |    | |_| | | | <br />|_|     \\__  | |_| <br />        (____/     <br />Installing ...<br />Done!<br />&nbsp;',
+    postDelay: 1000
+  },
+  {
+    action: 'type',
+    strings: ["npm test^400"],
     output: 'lib/usr.js&nbsp;(Errors: 1, Warnings: 0)<br />&nbsp;&nbsp;5:4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strings must use single quotes.<br /><br />Errors: 1<br />Warnings: 0&nbsp;',
     postDelay: 1000
   },

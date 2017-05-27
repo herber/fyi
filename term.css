@@ -1,0 +1,71 @@
+.terminal-window {
+  text-align: left;
+  max-width: 450px !important;
+  height: 300px !important;
+  border-radius: 13px 13px 0 0;
+  margin: auto;
+  position: relative;
+  border: solid black 2px;
+  background: white;
+}
+
+.terminal-window header {
+  background: white;
+  height: 30px;
+  border-radius: 10px 10px 0 0;
+  padding-left: 10px;
+}
+
+.terminal-window header .term-button {
+  width: 12px;
+  height: 12px;
+  margin: 10px 4px 4px 0;
+  display: inline-block;
+  border-radius: 8px;
+  border: solid black 2px;
+}
+
+.terminal-window section.terminal {
+  color: black;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  font-size: 11pt;
+  background: white;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  bottom: 0;
+  overflow: auto;
+  border-top: solid black 2px;
+}
+
+.terminal-window section.terminal .typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

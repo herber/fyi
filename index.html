@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FYI</title>
+
+        <!-- <link rel="apple-touch-icon" sizes="57x57" href="/ico_4/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/ico_4/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/ico_4/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/ico_4/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/ico_4/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/ico_4/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/ico_4/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/ico_4/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico_4/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/ico_4/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico_4/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/ico_4/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico_4/favicon-16x16.png">
+        <link rel="manifest" href="/ico_4/manifest.json">
+        <meta name="msapplication-TileImage" content="/ico_4/ms-icon-144x144.png"> -->
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="theme-color" content="#000000">
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:300|Playfair+Display:700" rel="stylesheet">
+        <link href="/main.css" rel="stylesheet">
+        <link href="/term.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/nprogress@0.2.0/nprogress.css">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="nav-resp nav-mobile">
+                <div class="nav-inner nav-inner-mobile">
+                    <div class="nav-element nav-left">
+                        <span class="nav-title"><a href="">FYI</a></span>
+                    </div>
+                    <div class="nav-element nav-right">
+                        <a class="nav-toggle" href="">&#9661;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-resp nav-desk">
+                <div class="nav-inner">
+                    <div class="nav-element nav-left">
+                        <span class="nav-title"><a href="">FYI</a></span>
+                        <a hresf="http://github.com/tobihrbr">Github</a>
+                    </div>
+                    <div class="nav-element nav-right">
+                        <a href="#usage">Usage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <div class="grid">
+                <div class="element element-55">
+                    <h1>FYI.</h1>
+                    <p>A simple best pracices linter.</p>
+                    <br>
+                    <a class="button-top" href="/signup">Get started</a>
+                    <br class="mobile">
+                    <br class="mobile">
+                    <a href="/limbus">Learn more</a>
+                </div>
+                <div class="element element-45">
+                    <div class="terminal-window">
+                        <header>
+                            <div class="term-button"></div>
+                            <div class="term-button"></div>
+                            <div class="term-button"></div>
+                        </header>
+                        <section class="terminal">
+                            <div class="history"></div>
+                            $&nbsp;<span class="prompt"></span>
+                            <span class="typed-cursor"></span>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main" id="usage">
+            <br><br>
+            <h2>Usage</h2>
+            <h3>Installation</h3>
+            <p>You need <a href="http://nodejs.org">node.js</a> to use fyi.</p>
+            <pre>
+                <code>npm install -g fyi-init</code>
+            </pre>
+            <h3>Add FYI to a project</h3>
+            <p>FYI uses npm so you need to have npm installed and a <span style="font-family: 'Cutive Mono', monospace; font-weight: bold;">package.json</span> in your projects directory.</p>
+            <pre>
+                <code>fyi-init .</code>
+            </pre>
+            <h3>Use linting</h3>
+            <pre>
+                <code>npm test</code>
+            </pre>
+            <p>Linting with file watcher</p>
+            <pre>
+                <code>npm test -- --watch</code>
+            </pre>
+            <h3>Ignored files</h3>
+            <p>In your <span style="font-family: 'Cutive Mono', monospace; font-weight: bold;">package.json</span>:</p>
+<pre>
+<code>
+...
+
+"fyi": {
+  "ignore": [
+    "my_custom_ignore",
+    "_*"
+  ]
+}
+
+...
+</code>
+</pre>
+        </div>
+
+        <div class="footer">
+            By <a href="http://twitter.com/tobihrbr">Tobias Herber(@tobihrbr)</a>
+        </div>
+
+        <script src="/main.js"></script>
+        <script src="/type.js"></script>
+		<script src="/term.js"></script>
+    </body>
+</html>

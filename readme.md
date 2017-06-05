@@ -1,4 +1,5 @@
-# fyi [![Build Status](https://travis-ci.org/tobihrbr/fyi.svg?branch=master)](https://travis-ci.org/tobihrbr/fyi)
+# fyi 
+![Supported by meta](http://meta-art.tobihrbr.com/badge.svg) [![Build Status](https://travis-ci.org/tobihrbr/fyi.svg?branch=master)](https://travis-ci.org/tobihrbr/fyi)
 
 > A simple best practices linter.
 

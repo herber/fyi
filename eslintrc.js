@@ -92,7 +92,6 @@ module.exports = {
     'max-nested-callbacks': ['error', { 'max': 4 }],
     'newline-after-var': ['error', 'always'],
     'newline-before-return': 'error',
-    'no-bitwise': 'error',
     'no-continue': 'error',
     'no-mixed-operators': 'error',
     'no-multiple-empty-lines': ['error', { 'max': 1 }],

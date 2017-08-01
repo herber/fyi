@@ -36,7 +36,6 @@ module.exports = {
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
     'class-methods-use-this': 'error',
-    'curly': ['error', 'multi-line'],
     'eqeqeq': ['error', 'always', { 'null': 'ignore' }],
     'no-case-declarations': 'error',
     'no-div-regex': 'error',
@@ -51,7 +50,6 @@ module.exports = {
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
     'no-new-func': 'error',
-    'no-param-reassign': 'error',
     'no-redeclare': 'error',
     'no-self-assign': 'error',
     'no-self-compare': 'error',
@@ -102,7 +100,6 @@ module.exports = {
     'padded-blocks': ['error', 'never'],
     'semi-spacing': ['error', { 'before': false, 'after': true }],
     'semi': ['error', 'always'],
-    'template-tag-spacing': ['error', 'always'],
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-spacing': ['error', { 'before': true, 'after': true }],
     'generator-star-spacing': ['error', { 'before': true, 'after': false }],
@@ -117,7 +114,7 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'rest-spread-spacing': ['error', 'never'],
-    'template-curly-spacing': ['error', 'never'],
+    'template-curly-spacing': ['error', 'always'],
     'yield-star-spacing': ['error', 'after'],
 	  'jsx-quotes': ['error', 'prefer-single']
   }

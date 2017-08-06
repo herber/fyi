@@ -5,7 +5,7 @@
 
 
 ## Install
-Install the [`fyi-cli`](https://github.com/tobihrbr/fyi-cli)
+### With [`fyi-cli`](https://github.com/tobihrbr/fyi-cli)
 ```bash
 npm install --global fyi-cli
 ```
@@ -17,13 +17,21 @@ Initialize a new fyi project
 fyi-init
 ```
 
+### Global
+```bash
+npm install --global fyi
+```
+
 ## Usage
+### For a single project
 If you used the [`fyi-cli`](https://github.com/tobihrbr/fyi-cli) you can simply run `npm test`.
 
 ```bash
 npm test
 ```
 
+Other `npm test` commands will execute after fyi is done.
+
 ## License
 
-MIT © [tobihrbr](https://tobihrbr.com)
+MIT © [Tobias Herber](https://tobihrbr.com)
